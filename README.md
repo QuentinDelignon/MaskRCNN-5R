@@ -7,7 +7,8 @@ The network is the same as presented in the paper.
 ## The Training Method 
 We get the pretrained network from Pytorch then we train the network with our small dataset.
 ## How To
-Clone the repo. Change the folder path of the dataset in training.py and also the saves folder. Execute training.py from its parent folder.
+Clone the repo. Change the folder path of the dataset in training.py and also the saves folder. Execute training.py from its parent folder.  
+A script named test_mask.py helps you get visual results from images or video (as presented in the next section).
 # Results 
 We will not detail further the results. We obtain more than 90% accuracy and the sytem generates good masks for our challenge. The user can go further if he wants.  
 <img src="https://github.com/QuentinDelignon/MaskRCNN-5R/blob/media/result_1.png" width="300" >
